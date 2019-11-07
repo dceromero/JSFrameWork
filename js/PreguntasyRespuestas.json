@@ -1,0 +1,47 @@
+  {"Preguntas" :  [
+        {
+            "Pregunta":"Pregunta 1",
+            "Respuesta":[
+                {
+                    "Descripcion":"1",
+                    "valor":true
+                },
+                {
+                    "Descripcion":"2",
+                    "valor":false
+                },
+                {
+                    "Descripcion":"3",
+                    "valor":false
+                },
+                {
+                    "Descripcion":"4",
+                    "valor":false
+                }
+            ]
+        },
+        {
+            "Pregunta":"Pregunta 2",
+            "Respuesta":[
+                {
+                    "Descripcion":"1",
+                    "valor":false
+                },
+                {
+                    "Descripcion":"2",
+                    "valor":true
+                },
+                {
+                    "Descripcion":"",
+                    "valor":false
+                },
+                {
+                    "Descripcion":"",
+                    "valor":false
+                }
+            ]
+        }     
+        
+    ]
+
+  }
