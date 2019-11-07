@@ -9,5 +9,11 @@ eventos.Load(function(){
     console.log(eventos.AttrValue('[type="text"]',"data-prueba"));
     eventos.Value('#txt',"Hola Mundo");
     console.log(eventos.Value("#txt"));
-
+    eventos.HttpRequest(
+        'Post',
+        "js/PreguntasyRespuestas.json",
+        'json', '', 
+        function(){
+            console.log(this.response.Preguntas);
+        })
 })
